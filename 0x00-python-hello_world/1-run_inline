@@ -7,4 +7,4 @@ if [ -z "$PYCODE" ]; then
 fi
 
 # Run the python code stored in the PYCODE environment variable
-python -c "$PYCODE"
+python3 -c "$PYCODE"
